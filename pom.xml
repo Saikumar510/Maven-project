@@ -5,6 +5,15 @@
   <artifactId>Kumarapp</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+
+   <properties>
+        <!-- Tell Maven we want to use Java 8 -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <!-- Tell Maven to treat all source files as UTF-8 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
   <name>Kumarapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
